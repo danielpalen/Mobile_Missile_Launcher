@@ -1,4 +1,4 @@
-# Missile Launcher by Daniel Palenicek
+# Missile Launcher
 
 The Missile Launcher is the result of my bachelor thesis "Reinforcement Learning for Mobile Missile Launching". The Missile Launcher software combines all the hardware parts described below and has the goal to autonomously find and shoot a specified target. Therefore it uses image processing, serial port communication and other algorithms.
 
