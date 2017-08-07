@@ -1,0 +1,42 @@
+# The properties file holds configuration property values for the program
+# and is used by some classes to initialize some of their properties.
+# The file is a central spot to save properties.
+# The properties can work with strings and integers. It can also return floats
+# but those have to be written in quotes (just like strings).
+#
+# @author: Daniel Palenicek
+
+webcam_device_name              = 0
+webcam_window_name              = "Missile Launcher Camera"
+
+# properties needed for reading from the camera
+frame_skipping                  = 1
+threashold_multiplicator        = 2
+max_buffer_size                 = 10
+frame_debugging_output          = 0
+
+sdl_window_name                 = "Control Center"
+
+vehicle_port                    = "/dev/ttyACM0"
+vehicle_turn_calibration        = "../resources/calibration/vehicleTurn.txt"
+
+# measured on 15.09.2016 10am
+vehicle_turn_left_intersect     = "-20.0850806037"
+vehicle_turn_left_slope         = "1.09547933756"
+vehicle_turn_right_intersect    = "-21.0363099537"
+vehicle_turn_right_slope        = "1.05450212881"
+
+
+vp_target_image_path            = "targets/box.png"
+vp_test_scene_image_path        = "targets/box_in_scene.png"
+vp_min_Hessian                  = 500;
+vp_sample_size                  = 3;
+
+robot_search_strategy           = "fllfrr";
+
+# reinforcement learning properties
+rl_alpha                        = "0.1"
+rl_gamma                        = "0.1"
+rl_epsilon                      = "0.02"
+rl_qValues_path                 = "../resources/training/qValues.txt"
+rl_learningLog_path             = "../resources/training/learningLog.txt"

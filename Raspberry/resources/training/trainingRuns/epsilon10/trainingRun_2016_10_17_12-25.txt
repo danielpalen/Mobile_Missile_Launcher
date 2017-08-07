@@ -1,0 +1,1544 @@
+
+#########################################################
+Episode 1
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:           0           0           0           0           0           0           0
+  badPosition:           0           0           0           0           0           0           0
+        toFar:           0           0           0           0           0           0           0
+ goodPosition:           0           0           0           0           0           0           0
+choosing greedy
+ [state     noTarget] [action     left] [reward  -3] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+ [state     noTarget] [action    right] [reward  -3] [n_ state     noTarget] [t_reward  -6]
+
+choosing random
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward  -8]
+
+choosing random
+ [state     noTarget] [action    right] [reward  -3] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+ [state     noTarget] [action   toward] [reward  -5] [n_ state     noTarget] [t_reward -16]
+
+choosing random
+ [state     noTarget] [action   toward] [reward  -5] [n_ state     noTarget] [t_reward -21]
+
+choosing greedy
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward -23]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -24]
+
+choosing greedy
+ [state     noTarget] [action     fire] [reward -20] [n_ state     noTarget] [t_reward -44]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:        -0.3       -0.57       -0.95        -0.2        -0.2        -0.1          -2
+  badPosition:           0           0           0           0           0           0           0
+        toFar:           0           0           0           0           0           0           0
+ goodPosition:           0           0           0           0           0           0           0
+
+
+#########################################################
+Episode 2
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:        -0.3       -0.57       -0.95        -0.2        -0.2        -0.1          -2
+  badPosition:           0           0           0           0           0           0           0
+        toFar:           0           0           0           0           0           0           0
+ goodPosition:           0           0           0           0           0           0           0
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+ [state     noTarget] [action  forward] [reward  -2] [n_ state  badPosition] [t_reward  -4]
+
+choosing greedy
+ [state  badPosition] [action     left] [reward  -1] [n_ state        toFar] [t_reward  -5]
+
+choosing greedy
+ [state        toFar] [action     left] [reward  -3] [n_ state     noTarget] [t_reward  -8]
+
+choosing random
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+ [state     noTarget] [action     left] [reward  -3] [n_ state     noTarget] [t_reward -14]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -15]
+
+choosing greedy
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -17]
+
+choosing random
+ [state     noTarget] [action    right] [reward  -3] [n_ state     noTarget] [t_reward -20]
+
+choosing greedy
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward -22]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -23]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -24]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -25]
+
+choosing greedy
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -27]
+
+choosing greedy
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward -29]
+
+choosing greedy
+ [state     noTarget] [action     left] [reward  -3] [n_ state  badPosition] [t_reward -32]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:     -0.8157    -0.81682       -0.95   -0.696678   -0.698334   -0.588102          -2
+  badPosition:        -0.1           0           0           0           0           0           0
+        toFar:      -0.302           0           0           0           0           0           0
+ goodPosition:           0           0           0           0           0           0           0
+
+
+#########################################################
+Episode 3
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:     -0.8157    -0.81682       -0.95   -0.696678   -0.698334   -0.588102          -2
+  badPosition:        -0.1           0           0           0           0           0           0
+        toFar:      -0.302           0           0           0           0           0           0
+ goodPosition:           0           0           0           0           0           0           0
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -2]
+
+choosing greedy
+ [state  badPosition] [action    right] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing random
+ [state     noTarget] [action   toward] [reward  -5] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward -13]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -14]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -15]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -16]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -17]
+
+choosing random
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -18]
+
+choosing greedy
+ [state     noTarget] [action     left] [reward  -3] [n_ state     noTarget] [t_reward -21]
+
+choosing greedy
+ [state     noTarget] [action    right] [reward  -3] [n_ state     noTarget] [t_reward -24]
+
+choosing random
+ [state     noTarget] [action     left] [reward  -3] [n_ state  badPosition] [t_reward -27]
+
+choosing greedy
+-270.552 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state     noTarget] [t_reward -24]
+
+choosing greedy
+ [state     noTarget] [action  forward] [reward  -2] [n_ state  badPosition] [t_reward -26]
+
+choosing greedy
+-81.7306 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward -23]
+
+choosing greedy
+ [state        toFar] [action    right] [reward  -3] [n_ state  badPosition] [t_reward -26]
+
+choosing greedy
+-215.106 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward -23]
+
+choosing greedy
+-18.9151 pixels to the left
+ [state        toFar] [action   toward] [reward  -1] [n_ state        toFar] [t_reward -24]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward -21]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward -18]
+
+choosing greedy
+ [state goodPosition] [action     left] [reward  -3] [n_ state goodPosition] [t_reward -21]
+
+choosing greedy
+ [state goodPosition] [action    right] [reward  -3] [n_ state goodPosition] [t_reward -24]
+
+choosing greedy
+-135.166 pixels to the left
+ [state goodPosition] [action   toward] [reward  -1] [n_ state goodPosition] [t_reward -25]
+
+choosing greedy
+ [state goodPosition] [action  forward] [reward  -1] [n_ state goodPosition] [t_reward -26]
+
+choosing greedy
+ [state goodPosition] [action backward] [reward  -2] [n_ state goodPosition] [t_reward -28]
+
+choosing greedy
+l
+ [state goodPosition] [action   search] [reward  -3] [n_ state     noTarget] [t_reward -31]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.23806    -1.04331    -1.36197   -0.947663   -0.835484   -0.861346          -2
+  badPosition:        -0.1   -0.106717    0.806245           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1        0.57           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355           0
+
+
+#########################################################
+Episode 4
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.23806    -1.04331    -1.36197   -0.947663   -0.835484   -0.861346          -2
+  badPosition:        -0.1   -0.106717    0.806245           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1        0.57           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355           0
+choosing greedy
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing random
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing random
+ [state     noTarget] [action     left] [reward  -3] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -12]
+
+choosing greedy
+-90.3059 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -9]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -6]
+
+choosing greedy
+-85.5936 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -3]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   0]
+
+choosing greedy
+-109.277 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   3]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward   6]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  16]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.04331    -1.36197    -1.06194    -0.96029   -0.937789          -2
+  badPosition:        -0.1   -0.106717     1.42331           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     1.24801           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355           1
+
+
+#########################################################
+Episode 5
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.04331    -1.36197    -1.06194    -0.96029   -0.937789          -2
+  badPosition:        -0.1   -0.106717     1.42331           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     1.24801           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355           1
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing random
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward  -3]
+
+choosing random
+ [state     noTarget] [action   toward] [reward  -5] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -10]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -12]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -13]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -14]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -15]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -16]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -17]
+
+choosing greedy
+276.632 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward -14]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward -11]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward  -8]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward   2]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.04331    -1.73531    -1.06194    -1.07379    -1.01901          -2
+  badPosition:        -0.1   -0.106717     1.59346           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     1.60212           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355        1.91
+
+
+#########################################################
+Episode 6
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.04331    -1.73531    -1.06194    -1.07379    -1.01901          -2
+  badPosition:        -0.1   -0.106717     1.59346           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     1.60212           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355        1.91
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+ [state     noTarget] [action    right] [reward  -3] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -10]
+
+choosing greedy
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -12]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -13]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -14]
+
+choosing greedy
+-160.048 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state  badPosition] [t_reward -11]
+
+choosing greedy
+-73.8713 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -8]
+
+choosing random
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -5]
+
+choosing greedy
+-100.922 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -2]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   1]
+
+choosing greedy
+-118.98 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   4]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   7]
+
+choosing greedy
+-134.582 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward  10]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  20]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -1.73531    -1.16637    -1.07379    -1.04509          -2
+  badPosition:        -0.1   -0.106717     2.24209           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     2.03581           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355      2.7381
+
+
+#########################################################
+Episode 7
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -1.73531    -1.16637    -1.07379    -1.04509          -2
+  badPosition:        -0.1   -0.106717     2.24209           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     2.03581           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355      2.7381
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -5]
+
+choosing greedy
+-187.644 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -2]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   1]
+
+choosing greedy
+-71.0693 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   4]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   7]
+
+choosing greedy
+-105.352 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  10]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  13]
+
+choosing greedy
+-115.42 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward  16]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  26]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -1.73531    -1.16637    -1.07379    -1.03683          -2
+  badPosition:        -0.1   -0.106717      2.5828           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     2.36294           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     3.49167
+
+
+#########################################################
+Episode 8
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -1.73531    -1.16637    -1.07379    -1.03683          -2
+  badPosition:        -0.1   -0.106717      2.5828           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     2.36294           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     3.49167
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -5]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing random
+ [state     noTarget] [action   toward] [reward  -5] [n_ state     noTarget] [t_reward -12]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -13]
+
+choosing greedy
+-266.384 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state     noTarget] [t_reward -10]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -11]
+
+choosing random
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -13]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -14]
+
+choosing random
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -16]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -17]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -18]
+
+choosing greedy
+-152.101 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward -15]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  -5]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.07379    -1.02538          -2
+  badPosition:        -0.1   -0.106717     2.68763           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     2.36294           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     4.17742
+
+
+#########################################################
+Episode 9
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.07379    -1.02538          -2
+  badPosition:        -0.1   -0.106717     2.68763           0           0           0           0
+        toFar:      -0.302   -0.294375        -0.1     2.36294           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     4.17742
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -5]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state        toFar] [t_reward  -9]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward  -6]
+
+choosing random
+-5.2644 pixels to the left
+ [state        toFar] [action   toward] [reward  -1] [n_ state        toFar] [t_reward  -7]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward  -4]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward  -1]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward   9]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.07379    -1.04009          -2
+  badPosition:        -0.1   -0.106717     2.68763           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     2.61855           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     4.80145
+
+
+#########################################################
+Episode 10
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.07379    -1.04009          -2
+  badPosition:        -0.1   -0.106717     2.68763           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     2.61855           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     4.80145
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing random
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward  -5]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -10]
+
+choosing random
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -12]
+
+choosing greedy
+164.619 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -9]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward  -6]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -3]
+
+choosing greedy
+73.4908 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   0]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward   3]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  13]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.04577          -2
+  badPosition:        -0.1   -0.106717     2.79797           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     2.81585           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     5.36932
+
+
+#########################################################
+Episode 11
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.04577          -2
+  badPosition:        -0.1   -0.106717     2.79797           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     2.81585           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     5.36932
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -5]
+
+choosing greedy
+-98.9716 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -2]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   1]
+
+choosing greedy
+-75.9001 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   4]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   7]
+
+choosing greedy
+-106.715 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  10]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  13]
+
+choosing greedy
+-125.382 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward  16]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  26]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.03169          -2
+  badPosition:        -0.1   -0.106717     2.99101           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     2.94413           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     5.88608
+
+
+#########################################################
+Episode 12
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.03169          -2
+  badPosition:        -0.1   -0.106717     2.99101           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     2.94413           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     5.88608
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -5]
+
+choosing greedy
+-164.462 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -2]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward   1]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   4]
+
+choosing greedy
+-115.786 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   7]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  10]
+
+choosing greedy
+-95.9781 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward  13]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  23]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.02107          -2
+  badPosition:        -0.1   -0.106717     3.10326           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497      3.0408           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     6.35633
+
+
+#########################################################
+Episode 13
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.02107          -2
+  badPosition:        -0.1   -0.106717     3.10326           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497      3.0408           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     6.35633
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -5]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -10]
+
+choosing greedy
+88.476 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -7]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward  -4]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward   6]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.03429          -2
+  badPosition:        -0.1   -0.106717     3.12334           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.10028           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     6.78426
+
+
+#########################################################
+Episode 14
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.24941    -2.07251    -1.34469    -1.17699    -1.03429          -2
+  badPosition:        -0.1   -0.106717     3.12334           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.10028           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     6.78426
+choosing random
+ [state     noTarget] [action    right] [reward  -3] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -5]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -10]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state        toFar] [t_reward -12]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -9]
+
+choosing greedy
+-90.8285 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -6]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -3]
+
+choosing greedy
+-123.863 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   0]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   3]
+
+choosing greedy
+-149.53 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward   6]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  16]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.07251    -1.34469    -1.17699    -1.03648          -2
+  badPosition:        -0.1   -0.106717     3.21131           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.15828           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     7.17368
+
+
+#########################################################
+Episode 15
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.07251    -1.34469    -1.17699    -1.03648          -2
+  badPosition:        -0.1   -0.106717     3.21131           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.15828           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     7.17368
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -5]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -9]
+
+choosing greedy
+78.5786 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -6]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward  -3]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state goodPosition] [t_reward   0]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  10]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.07251    -1.34469    -1.17699     -1.0363          -2
+  badPosition:        -0.1   -0.106717     3.22176           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.22837           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     7.52805
+
+
+#########################################################
+Episode 16
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.07251    -1.34469    -1.17699     -1.0363          -2
+  badPosition:        -0.1   -0.106717     3.22176           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.22837           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     7.52805
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing random
+ [state     noTarget] [action   toward] [reward  -5] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing random
+ [state     noTarget] [action  forward] [reward  -2] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -12]
+
+choosing greedy
+-144.016 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -9]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -6]
+
+choosing greedy
+-78.1651 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -3]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   0]
+
+choosing greedy
+-123.434 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward   3]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  13]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.17699    -1.02161          -2
+  badPosition:        -0.1   -0.106717     3.29223           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.24648           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     7.85053
+
+
+#########################################################
+Episode 17
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.17699    -1.02161          -2
+  badPosition:        -0.1   -0.106717     3.29223           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.24648           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     7.85053
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing random
+ [state     noTarget] [action backward] [reward  -2] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -8]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -9]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -10]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward -11]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward -12]
+
+choosing greedy
+127.405 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -9]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state        toFar] [t_reward  -6]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward  -3]
+
+choosing greedy
+86.5791 pixels to the right
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward   0]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  10]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979    -1.03261          -2
+  badPosition:        -0.1   -0.106717     3.34443           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.26182           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.14398
+
+
+#########################################################
+Episode 18
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979    -1.03261          -2
+  badPosition:        -0.1   -0.106717     3.34443           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.26182           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.14398
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -5]
+
+choosing greedy
+-204.855 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -5]
+
+choosing greedy
+-202.101 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -2]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   1]
+
+choosing greedy
+-117.696 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward   4]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state  badPosition] [t_reward   7]
+
+choosing greedy
+-88.7671 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state goodPosition] [t_reward  10]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward  20]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979   -0.997687          -2
+  badPosition:        -0.1   -0.106717     3.35584           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.27485           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.41102
+
+
+#########################################################
+Episode 19
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979   -0.997687          -2
+  badPosition:        -0.1   -0.106717     3.35584           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.27485           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.41102
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -2]
+
+choosing greedy
+-175.596 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state  badPosition] [t_reward   1]
+
+choosing greedy
+-63.0964 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state     noTarget] [t_reward   4]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward   3]
+
+choosing random
+ [state     noTarget] [action     fire] [reward -20] [n_ state     noTarget] [t_reward -17]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979   -0.985928    -3.80986
+  badPosition:        -0.1   -0.106717      3.3087           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.27485           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.41102
+
+
+#########################################################
+Episode 20
+
+Reading properties.txt file:
+Launcher opened
+VehicleController: Arduino connected!
+starting reinforcement learning
+
+read qValues from file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979   -0.985928    -3.80986
+  badPosition:        -0.1   -0.106717      3.3087           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.27485           0           0           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.41102
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -1]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -2]
+
+choosing greedy
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -5]
+
+choosing random
+ [state  badPosition] [action     left] [reward  -1] [n_ state        toFar] [t_reward  -6]
+
+choosing greedy
+ [state        toFar] [action  forward] [reward   3] [n_ state     noTarget] [t_reward  -3]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -4]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -5]
+
+choosing random
+l
+ [state     noTarget] [action   search] [reward  -1] [n_ state  badPosition] [t_reward  -6]
+
+choosing greedy
+-193.818 pixels to the left
+ [state  badPosition] [action   toward] [reward   3] [n_ state        toFar] [t_reward  -3]
+
+choosing random
+l
+ [state        toFar] [action   search] [reward  -3] [n_ state     noTarget] [t_reward  -6]
+
+choosing greedy
+f
+ [state     noTarget] [action   search] [reward  -1] [n_ state     noTarget] [t_reward  -7]
+
+choosing greedy
+r
+ [state     noTarget] [action   search] [reward  -1] [n_ state goodPosition] [t_reward  -8]
+
+choosing greedy
+ [state goodPosition] [action     fire] [reward  10] [n_ state goodPosition] [t_reward   2]
+
+updated qValues written to file: ../resources/training/qValues.txt
+  state/action        left       right      toward     forward    backward      search        fire
+     noTarget:    -1.42365    -1.43481    -2.37581    -1.42082    -1.26979   -0.905555    -3.80986
+  badPosition:   -0.157252   -0.106717      3.3102           0           0           0           0
+        toFar:      -0.302   -0.294375   -0.165497     3.23747           0   -0.309764           0
+ goodPosition:        -0.3        -0.3        -0.1        -0.1        -0.2   -0.308355     8.65403

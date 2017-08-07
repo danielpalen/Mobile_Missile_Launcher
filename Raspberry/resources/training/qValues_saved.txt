@@ -1,0 +1,5 @@
+  state/action        left       right      toward     forward    backward        fire
+     noTarget:    -1.09609    -1.09608    -2.13932    -1.01381    -1.09726    -4.08534
+  badPosition:   -0.192729   -0.165196     3.09624           0           0           0
+        toFar:   -0.775895        -0.3      -0.187     3.36979   -0.209319           0
+ goodPosition:      -0.297     -0.2943        -0.1        -0.1        -0.2     7.84517
